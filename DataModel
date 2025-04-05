@@ -15,4 +15,7 @@ Movie (Lookup), Date, StartTime, EndTime, Duration
 Contact (Lookup), Lookup(schedule), Movie, Theater, Date, StartTime (Auto populate)
 
 6) Contact
-Name, age, Phone Number
+Name, age, Phone Number, email
+========
+
+Lightning Console App Name - Show_Biz
