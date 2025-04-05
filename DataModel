@@ -1,0 +1,18 @@
+Objects and Fields
+1) Movie
+Movie Name, Genre, Length
+
+2) Cast 
+Artist Name, Movie (lookup), Role
+
+3) Theater 
+Theater Name, Address, FormatType (IMAX, 3D, 4DX, Dolby Ciname, RPX(Regal), XD (Cinemark), Seating capacity, Daily hours for operations, gap between shows
+
+4) Schedule
+Movie (Lookup), Date, StartTime, EndTime, Duration
+
+5) Booking
+Contact (Lookup), Lookup(schedule), Movie, Theater, Date, StartTime (Auto populate)
+
+6) Contact
+Name, age, Phone Number
