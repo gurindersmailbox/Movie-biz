@@ -1,6 +1,6 @@
 Objects and Fields
 1) Movie
-Movie Name, Genre, Length
+Movie Name, Genre, Length_in_mins
 
 2) Cast 
 Artist Name, Movie (lookup), Role
