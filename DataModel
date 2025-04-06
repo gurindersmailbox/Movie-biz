@@ -6,13 +6,13 @@ Movie Name, Genre, Length_in_mins
 Artist Name, Movie (lookup), Role
 
 3) Theater 
-Theater Name, Address, FormatType (IMAX, 3D, 4DX, Dolby Ciname, RPX(Regal), XD (Cinemark), Seating capacity, Daily hours for operations, gap between shows
+Theater Name, Address, FormatType (IMAX, 3D, 4DX, Dolby Ciname, RPX(Regal), XD (Cinemark), Seating capacity, Daily hours for operations (Lookup business hours), gap between shows
 
 4) Schedule
-Movie (Lookup), Date, StartTime, EndTime, Duration
+Movie (Lookup), StartDateTime, Duration (formula lookup Movie Length), EndDateTime (Formula from Duration)
 
 5) Booking
-Contact (Lookup), Lookup(schedule), Movie, Theater, Date, StartTime (Auto populate)
+Contact (required Lookup), Lookup(schedule), Movie (Lookup), Theater (Lookup), startDateTime (formula Autopopulate)
 
 6) Contact
 Name, age, Phone Number, email
