@@ -1,0 +1,5 @@
+1) Flow - Duplicate Rule for Schedule
+This Flow is to prevent duplicate schedule involving same movie starting at the same time at the same theater location. 
+We could not use duplicate rules because matching rule only allows one lookup field. Schedule record involves atleast two lookups to be checked i.e. theater and movie. 
+
+
